@@ -1,0 +1,22 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "angular dome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an--/angular_dome.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "anjie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/an--/angular_dome/issues"
+  },
+  "homepage": "https://github.com/an--/angular_dome#readme"
+}
