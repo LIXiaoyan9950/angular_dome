@@ -1,10 +1,11 @@
 {
-  "name": "angular",
+  "name": "angular_dome_0",
   "version": "1.0.0",
   "description": "angular dome",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/an--/angular_dome/issues"
   },
-  "homepage": "https://github.com/an--/angular_dome#readme"
+  "homepage": "https://github.com/an--/angular_dome#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "grunt": "^0.4.5"
+  }
 }
