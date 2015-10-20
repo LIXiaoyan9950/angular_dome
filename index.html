@@ -1,9 +1,206 @@
 <!DOCTYPE html>
 <html lang="zh_CN">
 <head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>angular dome</title>
+
+	<link rel="shortcut icon" href="/images/gt_favicon.png">
+	<link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/font-awesome.css">
+
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+
 </head>
-<body>
-holle world
+<body class="text-shadows">
+
+	<nav class="mainmenu">
+		<div class="container">
+			<div class="dropdown">
+				<button type="button" class="navbar-toggle" data-toggle="dropdown"> <i class="fa fa-bars fa-2x"></i>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+					<li>
+						<a href="#info">个人信息</a>
+					</li>
+					<li>
+						<a href="#company">工作经历</a>
+					</li>
+					<li>
+						<a href="#experience">项目经验</a>
+					</li>
+					<li>
+						<a href="#skill">掌握技能</a>
+					</li>
+					<li>
+						<a href="#orther">其他</a>
+					</li>
+				</ul>
+			</div></div>
+	</nav>
+
+	<section class="section" id="head">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 text-center">
+					<H1>安杰</H1>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 text-center">
+					<ul class="list-unstyled">
+						<li>男</li>
+						<li>24</li>
+						<li>3年工作经验</li>
+						<li></li>
+						<li>186 7037 2832</li>
+						<li>jinfengan@163.com</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="company">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
+					<H3>工作经历</H3>
+					<ul class="media-list">
+						<li class="media">
+							<div class="media-left">
+								<a href="www.j0.cn">
+									<img class="media-object" width="180px" src="/images/logo_j0.png">
+								</a>
+							</div>
+							<div class="media-body">
+								<h4>解铃网（j0.cn）</h4>
+								<p>程序员</p>
+							</div>
+						</li>
+						<li class="media">
+							<div class="media-left">
+								<a href="">
+									<img class="media-object" width="180px" src="/images/logo_kc.png">
+								</a>
+							</div>
+							<div class="media-body">
+								<h4>湖南科创信息技术股份有限公司</h4>
+								<p>程序员</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="experience">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
+					<H3>项目经验</H3>
+					<ul class="list-unstyled">
+						<li>
+							<h4>j0.cn</h4>
+							<p>java，javascript，html，css</p>
+							<p>解铃网（j0.cn）,是一家致力于帮助中小学教师、家长、孩子解决学习问题的网站。</p>
+							<p>
+								网站后端采用java（springmvc+spring+mybatis+druid，用户认证使用shiro），工程管理使用gradle，redis缓存用户，数据库采用mysql。网站采用spa架构，前端使用seajs，backbone，underscore（处理html模版），zepto，bootstrap(后台管理页面)。部署采用nginx+tomcat。
+							</p>
+							<p>期间主要工作：</p>
+							<ol>
+								<li>
+									网站模块开发（微课模块、班级管理模块、试题库模块）。修改静态HTML模版，javascript完成用户交互效果，页面效果调整，用ajax对数据进行get/post/put/delete，服务端get/post/put/delete接口实现，java业务逻辑代码实现。
+								</li>
+								<li>微信公众平台开发。将微信公众平台服务从老版应用迁移到新版网站应用（老版网站采用公司开发框架）。</li>
+							</ol>
+						</li>
+						<li>
+							<h4>社会管理创新与服务平台</h4>
+							<p>java，javascript，sql</p>
+							<p>
+								该系统为社区管理系统，该系统以人口、房屋、单位数据为基础关联辖区内所有人房单位的业务和事件，实现人房单位等各项信息的管理，社区事件线上办理、督办。地理信息模块将各元素在地图上直观标识，并实现部分业务功能直接在地图上操作。
+							</p>
+							<p>
+								该项目主要要采用GWT实现，地图客户端功能使用ActionScript3.0实现，部分地图相关的数据交互采用Ajax实现，后端数据持久层采用公司框架实现（该框架与mybatis类似）。
+							</p>
+							<p>期间主要工作：</p>
+							<ol>
+								<li>
+									使用JS与地图接口进行对接，通过GWT RPC和Ajax完成地图客户端和服务端的交互，并在后端实现Java逻辑处理和入库等操作，让地图与业务系统融合在一起。
+								</li>
+								<li>系统门户开发,针对不同角色采用不同的维度和口径对数据进行统计，并在页面上用fusioncharts实现各类统计图表。</li>
+								<li>根据需要部署应用的测试版本，以及应用迁移；SVN管理。</li>
+							</ol>
+						</li>
+						<li>
+							<h4>业务管理系统</h4>
+							<p>java，javascript，html，sql，上线测试</p>
+							<p>期间有两个政府行业项目。</p>
+							<p>前端采用jQuery EasyUI和公司的jQuery框架，后端用struts2+公司框架（数据持久层），WebService实现采用Axis。</p>
+							<p>期间主要工作：</p>
+							<ol>
+								<li>业务数据管理模块，提供友好的数据录入和查询功，并实现记录的流转，签收和反馈功能。</li>
+								<li>用fusioncharts实现业务数据的统计图表。</li>
+								<li>对WebService调用部分进行修改，增加服务端状态探测，权限认证功能。</li>
+								<li>部署测试环境，进行联调测试。</li>
+							</ol>
+						</li>
+						<li>
+							<h4>内网门户</h4>
+							<p>java，javascript</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="skill">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+					<h3>掌握技能</h3>
+					<dl class="dl-horizontal">
+						<dt>Web开发</dt>
+						<dd>前端</dd>
+						<dt>服务端</dt>
+						<dd>java(springmvc/spring/mybatis)/jsp/velocity</dd>
+						<dt>数据库/缓存</dt>
+						<dd>mysql/oracle/redis</dd>
+						<dt>版本管理</dt>
+						<dd>svn/git</dd>
+						<dt>调试工具</dt>
+						<dd>chrome/wireshark</dd>
+					</dl>
+					<h3>熟悉技能</h3>
+					<p>node/zepto/shiro/linux/sublime/eclipse/intelliJIDEA/tomcat/weblogic/webshpere/restful/http/tcp/ip</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section" id="orther">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+					<h3>github</h3>
+					<p>https://github.com/an--</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="/node_modules/jquery/dist/jquery.js" ></script>
+	<script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.js" ></script>
+	<script type="text/javascript" src="/node_modules/angular/angular.js" ></script>
 </body>
 </html>

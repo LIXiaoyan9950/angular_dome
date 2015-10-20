@@ -6,7 +6,12 @@ var app = express();
 app.set('port', 8081);
 
 // app.use(express.static('.'));
-app.use('css', express.static('css'));
+app.use('/css', express.static('css'));
+app.use('/fonts', express.static('fonts'));
+app.use('/images', express.static('images'));
+app.use('/js', express.static('js'));
+app.use('/node_modules', express.static('node_modules'));
+app.use('/template', express.static('template'));
 
 
 app.get('/', function(req, resp){
